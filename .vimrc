@@ -3,6 +3,8 @@ execute pathogen#infect()
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
+" CtrlP
+let g:ctrlp_tabpage_position = 'rw'
 
 " 显示行号
 set nu
