@@ -1,3 +1,7 @@
+execute pathogen#infect()
+
+" NERDTree
+map <C-n> :NERDTreeToggle<CR>
 
 " 显示行号
 set nu
@@ -21,3 +25,5 @@ set laststatus=2
 syntax on
 " 加亮主题
 colorscheme blue
+
+
