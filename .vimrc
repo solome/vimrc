@@ -3,6 +3,7 @@ execute pathogen#infect()
 " NERDTree
 map <C-n> :NERDTreeToggle<CR>
 
+
 " 显示行号
 set nu
 
@@ -24,6 +25,7 @@ set laststatus=2
 " 源码加亮
 syntax on
 " 加亮主题
-colorscheme blue
+colorscheme github
 
-
+" 折叠
+set foldmethod=indent
