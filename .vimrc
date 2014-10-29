@@ -13,10 +13,11 @@ set nu
 set tabstop=4
 set shiftwidth=4
 set softtabstop=4
+set expandtab
 
 " 搜索结果高亮显示
 set hlsearch
-"查找单词，自动进行搜索
+" 查找单词，自动进行搜索
 set incsearch
 
 " 状态栏格式
@@ -31,3 +32,13 @@ colorscheme github
 
 " 折叠
 set foldmethod=indent
+
+" 显示TAB键和行尾空格
+set list
+set lcs=tab:\¶\ ,nbsp:%,trail:¢
+highlight LeaderTab guifg=#007BAA
+match LeaderTab /^\t/
+
+" 缩进
+set autoindent
+set cindent
