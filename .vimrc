@@ -6,6 +6,10 @@ map <C-n> :NERDTreeToggle<CR>
 " CtrlP
 let g:ctrlp_tabpage_position = 'rw'
 
+" vim-jsx
+let g:jsx_ext_required = 0
+let g:jsx_pragma_required = 1
+
 " 显示行号
 set nu
 
