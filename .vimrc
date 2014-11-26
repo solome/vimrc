@@ -53,3 +53,6 @@ match LeaderTab /^\t/
 " 缩进
 set autoindent
 set cindent
+
+" 设置shell进入BASH的环境配置
+set shell=bash\ -l
