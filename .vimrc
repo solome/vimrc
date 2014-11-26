@@ -1,9 +1,3 @@
-" 设置字符编码
-set encoding=utf-8
-set fileencodings=ucs-bom,utf-8,cp936
-set fileencoding=gb2312
-set termencoding=utf-8
-
 " 插件初始化与管理
 execute pathogen#infect()
 
