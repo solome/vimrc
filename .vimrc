@@ -37,7 +37,7 @@ set laststatus=2
 " 源码加亮
 syntax on
 " 加亮主题
-colorscheme github
+colorscheme dracula
 
 " 折叠
 set foldmethod=indent
