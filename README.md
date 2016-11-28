@@ -10,6 +10,8 @@ git clone https://github.com/kien/ctrlp.vim ctrlp
 git clone https://github.com/scrooloose/nerdtree
 git clone https://github.com/tpope/vim-fugitive
 git clone https://github.com/posva/vim-vue.git
+git clone git://github.com/toyamarinyon/vim-swift.git
+
 cd ~/.vim
 python setup.py
 ```
