@@ -54,3 +54,6 @@ set cindent
 
 " 设置shell进入BASH的环境配置
 set shell=bash\ -l
+
+" NeoComplete
+let g:neocomplete#enable_at_startup=1
