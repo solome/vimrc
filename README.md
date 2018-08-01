@@ -5,14 +5,9 @@
 
 ```shell
 git clone https://github.com/solome/vimrc.git ~/.vim
-cd ~/.vim/bundle
-git clone https://github.com/kien/ctrlp.vim ctrlp
-git clone https://github.com/scrooloose/nerdtree
-git clone https://github.com/tpope/vim-fugitive
-git clone https://github.com/posva/vim-vue.git
-git clone git://github.com/toyamarinyon/vim-swift.git
-
 cd ~/.vim
+git submodule init
+git submodule update 
 python setup.py
 ```
 
