@@ -19,9 +19,9 @@ let g:jsx_pragma_required = 1
 set nu
 
 " tab键对应的空行数
-set tabstop=4
-set shiftwidth=4
-set softtabstop=4
+set tabstop=2
+set shiftwidth=2
+set softtabstop=2
 set expandtab
 
 " 搜索结果高亮显示
@@ -57,3 +57,6 @@ set shell=bash\ -l
 
 " NeoComplete
 let g:neocomplete#enable_at_startup=1
+
+" vim-jinja
+au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm,*.njk set ft=jinja
