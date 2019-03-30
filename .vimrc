@@ -22,7 +22,7 @@ set nu
 set tabstop=2
 set shiftwidth=2
 set softtabstop=2
-  set backspace=2
+set backspace=2
 set expandtab
 
 " 搜索结果高亮显示
