@@ -7,19 +7,18 @@ import traceback
 
 def setup():
     if os.path.isfile('../.vimrc'):
-        print 'notice: // cover old file (~/.vimrc).'
+        print('notice: // cover old file (~/.vimrc).')
 
     try:
         shutil.copy('./.vimrc', '../')
-    except Exception, e:
-        print e
-        print traceback.format_exc()
+    except e:
+        print(e)
+        print(traceback.format_exc())
     else:
-        print 'Done! Successful initialization!'
+        print('Done! Successful initialization!')
 
 if __name__ == '__main__':
     setup()
 
 # @author Ivan Lyons (solome)
-# @email iliyang.cn@gmail.com
 # @date 2014-10-26 (Beijing, China)
