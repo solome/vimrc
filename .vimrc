@@ -11,10 +11,6 @@ map <C-n> :NERDTreeToggle<CR>
 " CtrlP
 let g:ctrlp_tabpage_position = 'rw'
 
-" vim-jsx
-let g:jsx_ext_required = 0
-let g:jsx_pragma_required = 1
-
 " 显示行号
 set nu
 
@@ -38,7 +34,7 @@ set laststatus=2
 " 源码加亮
 syntax on
 " 加亮主题
-colorscheme dracula
+colorscheme space-vim-dark
 
 " 折叠
 set foldmethod=indent

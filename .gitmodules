@@ -10,9 +10,6 @@
 [submodule "bundle/vim-jsx"]
 	path = bundle/vim-jsx
 	url = git@github.com:mxw/vim-jsx.git
-[submodule "bundle/vim-vue"]
-	path = bundle/vim-vue
-	url = git@github.com:posva/vim-vue.git
 [submodule "bundle/neocomplete.vim"]
 	path = bundle/neocomplete.vim
 	url = git@github.com:Shougo/neocomplete.vim.git
@@ -25,3 +22,9 @@
 [submodule "bundle/thrift.vim"]
 	path = bundle/thrift.vim
 	url = git@github.com:solarnz/thrift.vim.git
+[submodule "bundle/syntax"]
+	path = bundle/syntax
+	url = https://github.com/octol/vim-cpp-enhanced-highlight.git
+[submodule "/Users/juyipeng/.vim/bundle/colorschemes"]
+	path = /Users/juyipeng/.vim/bundle/colorschemes
+	url = https://github.com/flazz/vim-colorschemes.git

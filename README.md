@@ -14,3 +14,7 @@ python setup.py
 enjoy it!
 
 
+### Plugins
+
+- The NERD tree : A tree explorer plugin for navigating the filesystem.
+- 
